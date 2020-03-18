@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NBA</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="assets/css/main.css">
+
+
+
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="glow love">WE'RE PLAYING BASKETBALL </h1>
+        </div>
+    </div>
+
+
+
+
+    <div class="container logos">
+        <div class=" row ">
+            <div class="col-md-12">
+                <div class="dropdown"> <button ><img class='bb' id='1' src="assets/logos/hawks.png"
+                            alt="Hawks"> </button> </div>
+                <div class="dropdown"> <button ><img class='bb' id='27' src="assets/logos/76ers.png"
+                            alt="76ers"></button> </div>
+                <div class="dropdown"> <button ><img class='bb' id='4' src="assets/logos/bk-nets.png"
+                            alt="Nets"></button> </div>
+                <div class="dropdown"> <button ><img class='bb' id='29' src="assets/logos/blazers.png"
+                            alt="blazers"></button> </div>
+                <div class="dropdown"><button ><img class='bb' id='21' src="assets/logos/bucks.png"
+                            alt="bucks"></button> </div>
+                <div class="dropdown"> <button ><img class='bb' id='6' src="assets/logos/bulls.png"
+                            alt="bulls"></button> </div>
+                <div class="dropdown"> <button ><img class='bb' id='7' src="assets/logos/cavs.png"
+                            alt="cavs"></button> </div>
+                <div class="dropdown"> <button ><img class='bb' id='2' src="assets/logos/celtics.png"
+                            alt="celtics"></button> </div>
+                <div class="dropdown"> <button ><img class='bb' id='16' src="assets/logos/clippers.png"
+                            alt="clippers"></button> </div>
+                <div class="dropdown"> <button ><img class='bb' id='11'
+                                src="assets/logos/golden_state.png" alt="warriors"></button> </div>
+                <div class="dropdown"> <button ><img class='bb' id='19' src="assets/logos/grizzlers.png"
+                            alt="grizzlers"></button> </div>
+                <div class="dropdown"> <button ><img class='bb' id='20' src="assets/logos/heat.png"
+                            alt="heat"></button> </div>
+                <div class="dropdown"> <button ><img class='bb' id='5' src="assets/logos/hornets.png"
+                            alt="hornets"></button> </div>
+                <div class="dropdown"> <button ><img class='bb' id='4s0' src="assets/logos/jazz.png"
+                            alt="jazz"></button> </div>
+                <div class="dropdown"> <button ><img class='bb' id='30' src="assets/logos/kings.png"
+                            alt="kings"></button> </div>
+                <div class="dropdown"> <button ><img class='bb' id='24' src="assets/logos/knicks.png"
+                            alt="knicks"></button> </div>
+                <div class="dropdown"><button ><img class='bb' id='17' src="assets/logos/lakers.png"
+                            alt="lakers"></button> </div>
+                <div class="dropdown"> <button ><img class='bb' id='26' src="assets/logos/magic.png"
+                            alt="magic"></button> </div>
+                <div class="dropdown"> <button ><img class='bb' id='8' src="assets/logos/mavericks.png"
+                            alt="mavericks"></button> </div>
+                <div class="dropdown"> <button ><img class='bb' id='9' src="assets/logos/nuggets.png"
+                            alt="nuggets"></button> </div>
+                <div class="dropdown"> <button ><img class='bb' id='25' src="assets/logos/okc.png"
+                            alt="okc"></button> </div>
+                <div class="dropdown"> <button ><img class='bb' id='15' src="assets/logos/pacers.png"
+                            alt="pacers"></button> </div>
+                <div class="dropdown"> <button ><img class='bb' id='23' src="assets/logos/pelicans.png"
+                            alt="pelicans"></button> </div>
+                <div class="dropdown"> <button ><img class='bb' id='10' src="assets/logos/pistons.png"
+                            alt="pistons"></button> </div>
+                <div class="dropdown"> <button ><img class='bb' id='38' src="assets/logos/raptors.png"
+                            alt="raptors"></button> </div>
+                <div class="dropdown"> <button ><img class='bb' id='14' src="assets/logos/rockets.png"
+                            alt="rockets"></button> </div>
+                <div class="dropdown"> <button ><img class='bb' id='31' src="assets/logos/spurs.png"
+                            alt="spurs"></button> </div>
+                <div class="dropdown"> <button ><img class='bb' id='28' src="assets/logos/suns.png"
+                            alt="suns"></button> </div>
+                <div class="dropdown"> <button ><img class='bb' id='41' src="assets/logos/wizzards.png"
+                            alt="wizzards"></button> </div>
+                <div class="dropdown"> <button ><img class='bb' id='22' src="assets/logos/wolves.png"
+                            alt="wolves"></button> </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class=" jumbotron jumbotron-fluid fade">
+        <div class="container ">
+            <div class="row  justify-content-center">
+                <img id="hoop" src="assets/img/hoop.png" alt="the basketball hoop" height="300px" width="370px">
+            </div>
+
+            <div class="row  justify-content-center">
+                <img id="b1" class="ball" src="assets/img/basketball.png" alt="the basketball">
+                <button class="start-game ">
+                    <h1 class="glow">Start Game </h1>
+                </button>
+                <img id="b2" class="ball" src="assets/img/basketball.png" alt="the basketball">
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="assets/js/general.js"></script>
+
+
+</body>
+
+</html>

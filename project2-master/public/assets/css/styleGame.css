@@ -1,0 +1,133 @@
+#gameBody{
+    background-image: linear-gradient(to right, black, white, black);
+}
+#hoop{
+    position: relative;
+    left: 35%;
+    top: 20px;
+    z-index: 0;
+    opacity: 0;
+}
+#ball{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 375px;
+    left: 16%;  
+    z-index: 0; 
+    opacity: 0;
+}
+.userInput{
+    text-align: center;
+    background-color:#8a2be2;
+    border-style: solid;
+    border-width: 2px;
+    border-color: yellow;
+    border-radius: 10px;
+    z-index: 1;
+    padding: 15px;
+    margin-top: 30px;
+    position: relative;
+    bottom: 150px;
+}
+.userRow1,.userRow2,.userRow3{
+    padding: 20px;
+    margin: 20px;
+}
+.userRow1{
+    font-size: 30px;
+}
+.user{
+    width: 300px;
+    height: 60px;
+    background-color: lightgray;
+    font-weight: bold;
+}
+.homeButton,.submitUser{
+    background-color: purple;
+    border: 2px solid yellow;
+    font-weight: bold;
+    font-size: 20px;
+    width: 200px;
+    color: white;
+}
+.highScore{
+    text-align: center;
+    background-color: #8A2BE2;
+    border-style: solid;
+    border-color: yellow;
+    border-width: 2px;
+    border-radius: 10px;
+    opacity: 0;
+    position: relative;
+    top: 100px;
+    font-weight: bold;
+}
+.homeButton{
+    margin: 25px;
+}
+.swoosh{
+    height : 120px;
+    width : 120px;
+    position : fixed;
+    bottom : 300px;
+    left : 600px;
+    z-index: 1;
+}
+.scoreboard{
+    background-color: purple;
+    width: 200px;
+    height: 150px;
+    position: relative;
+    left: 450px;
+    top: 125px;
+    text-align: center;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 2px;
+    border-color: yellow;
+    opacity: 0;
+}
+.ball{
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    bottom : 35px;
+    left : 595px;
+}
+.time{
+    font-size: 20px;
+}
+.homeScore,.awayScore{
+    font-size: 25px;
+}
+.gold{
+  background-color: gold;
+}
+.silver{
+    background-color: silver;
+}
+.bronze{
+    background-color: #cd7f32;
+}
+.yellow{
+    border: 1px solid yellow;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.glow {
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+    @-webkit-keyframes glow {
+        from {
+            text-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px #8A2BE2, 0 0 40px #8A2BE2, 0 0 50px #8A2BE2, 0 0 60px #8A2BE2, 0 0 70px #8A2BE2;
+        }   
+
+        to {
+            text-shadow: 0 0 20px yellow, 0 0 20px yellow, 0 0 40px #8A2BE2, 0 0 50px #8A2BE2, 0 0 60px #8A2BE2, 0 0 70px #8A2BE2, 0 0 80px #8A2BE2;
+        }
+    }
